@@ -1,0 +1,5 @@
+# minimax
+minimax algorithm for tictactoe game
+利用minimax演算法實現圈圈叉叉遊戲，evaluation()這個方法可以自己定義；這裡為了方便練習我用了一個過於簡單的方法來計算score。
+因此在此系統中有一點bug，這是因為用了過於簡單的方法計算evaluation。
+若是希望計算機可以在每次的訓練過程中得到更佳的結果，則需要更好的計分方法，另外最好是可以在方法中加入可變動的參數讓系統可以根據計算結果進行參數調整。
